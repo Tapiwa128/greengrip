@@ -155,19 +155,6 @@ greengrip-energy/
   </a>
 </p>
 
-<h3 align="center">✨ Preview</h3>
 
-<p align="center">
-  <img src="https://example.com/path-to-home-preview.jpg" alt="Home Page" width="400">
-  <em>Home page showcase</em>
-</p>
 
-<p align="center">
-  <img src="https://example.com/path-to-services-preview.jpg" alt="Services Page" width="400">
-  <em>Services section</em>
-</p>
 
-<p align="center">
-  <img src="https://example.com/path-to-mobile-preview.jpg" alt="Mobile View" width="200">
-  <em>Mobile responsive design</em>
-</p>
