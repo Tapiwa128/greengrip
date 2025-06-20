@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Greengrip Energy for solar, borehole, and water storage solutions in Zimbabwe">
+  <title>Contact Us | Greengrip Energy</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo-link">
+        <img src="images/logo.png" class="nav-logo" alt="Greengrip Energy" />
+      </a>
+      <div class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle navigation"><i class="fas fa-bars"></i></div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Header -->
+  <header class="hero">
+    <div class="slideshow-container">
+      <div class="slide fade" style="display: block;">
+        <img src="images/pexels-pixabay-371917.jpg" alt="Contact Greengrip Energy" />
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1>Get In Touch</h1>
+          <p>We're ready to discuss your energy and water needs</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="section contact">
+    <div class="section-header">
+      <h2 class="section-title">Contact <span>Us</span></h2>
+      <p class="section-subtitle">We'd love to hear from you</p>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="info-box">
+          <div class="info-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="info-content">
+            <h3>Our Location</h3>
+            <p>109 NKULUMANE, SEKUSILE, BULAWAYO</p>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="info-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="info-content">
+            <h3>Call Us</h3>
+            <p><a href="tel:+263784891758">+263713458695</a></p>
+            <p>Mon-Fri: 8am - 5pm</p>
+            <p>Sat: 9am - 1pm</p>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="info-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="info-content">
+            <h3>Email Us</h3>
+            <p><a href="mailto:ngqabuthohadebe@gmail.com">ngqabuthohadebe@gmail.com</a></p>
+            <p>Response within 24 hours</p>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="info-icon">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <div class="info-content">
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/263784891758">Chat with us</a></p>
+            <p>Quick responses during business hours</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form id="contact-form" action="process-form.php" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name*</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address*</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="solar">Solar Installation</option>
+              <option value="borehole">Borehole Drilling</option>
+              <option value="jojo">Jojo Tank Installation</option>
+              <option value="maintenance">System Maintenance</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message*</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <div class="cta-overlay"></div>
+    <div class="cta-content">
+      <h2>Need Immediate Assistance?</h2>
+      <p>Call us now to speak with one of our energy and water specialists.</p>
+      <div class="cta-buttons">
+        <a href="tel:+263784891758" class="btn btn-primary">
+          <i class="fas fa-phone"></i> +263713458695
+        </a>
+        <a href="https://wa.me/263784891758" class="btn btn-outline">
+          <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <a href="index.html" class="footer-logo">
+          <img src="images/logo.png" alt="Greengrip Energy" />
+        </a>
+        <p>Empowering Zimbabwe with sustainable energy and water solutions since 2010.</p>
+        <div class="footer-social">
+          <a href="https://wa.me/263784891758" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html#solar">Solar Installations</a></li>
+          <li><a href="services.html#borehole">Borehole Drilling</a></li>
+          <li><a href="services.html#jojo">Jojo Tank Setup</a></li>
+          <li><a href="services.html#maintenance">Maintenance</a></li>
+          <li><a href="services.html">All Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> 109 NKULUMANE, SEKUSILE, BULAWAYO</li>
+          <li><i class="fas fa-phone"></i> <a href="tel:+263784891758">+263713458695</a></li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:ngqabuthohadebe@gmail.com">ngqabuthohadebe@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 GREENGRIP ENERGY. All rights reserved.</p>
+      <p>Website developed by <a href="#" target="_blank">Pakama Tech Solutions</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

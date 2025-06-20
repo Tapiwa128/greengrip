@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Greengrip Energy - Leading provider of solar energy, borehole drilling, and water solutions in Zimbabwe">
+  <title>Greengrip Energy | Sustainable Energy & Water Solutions</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo-link">
+        <img src="images/logo.png" class="nav-logo" alt="Greengrip Energy" />
+      </a>
+      <div class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle navigation"><i class="fas fa-bars"></i></div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero / Slideshow -->
+  <header class="hero">
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <img src="images/panels-electricity-order-sunlight.webp" alt="Solar Panels installation by Greengrip Energy" />
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1>Power Your Future with Solar Energy</h1>
+          <p>Reliable, efficient solar solutions for homes and businesses</p>
+          <a href="services.html" class="btn btn-primary">Explore Services</a>
+        </div>
+      </div>
+      <div class="slide fade">
+        <img src="images/Types-of-PVC-Pipes-Fenwick-Website-Photo.jpg" alt="Borehole drilling project by Greengrip Energy" />
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1>Clean Water Solutions</h1>
+          <p>Professional borehole drilling for sustainable water access</p>
+          <a href="services.html" class="btn btn-primary">Our Water Services</a>
+        </div>
+      </div>
+      <div class="slide fade">
+        <img src="images/0001032691_resized_mainimagejojo1022.jpg" alt="Jojo tank installation by Greengrip Energy" />
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1>Water Storage Solutions</h1>
+          <p>High-quality Jojo tank installations you can trust</p>
+          <a href="services.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="slide-controls">
+        <span class="slide-prev" onclick="plusSlides(-1)">&#10094;</span>
+        <span class="slide-next" onclick="plusSlides(1)">&#10095;</span>
+      </div>
+      <div class="slide-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="about-wrapper">
+      <div class="about-logo">
+        <img src="images/logo.png" alt="Greengrip Energy Logo" />
+      </div>
+      <div class="about-content">
+        <h2>About <span>Greengrip Energy</span></h2>
+        <p>Greengrip Energy is dedicated to providing sustainable energy and water solutions across Zimbabwe. We specialize in solar power systems, borehole drilling, and Jojo tank installations. With a mission to empower homes and industries with clean resources, we pride ourselves on quality, reliability, and innovation.</p>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <span class="stat-number" data-count="150">0</span>+
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number" data-count="12">0</span>+
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number" data-count="98">0</span>%
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+        <a href="about.html" class="btn btn-secondary">Learn More About Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section services" id="services">
+    <div class="section-header">
+      <h2 class="section-title">Our Core Services</h2>
+      <p class="section-subtitle">Sustainable solutions for energy and water needs</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-box">
+        <div class="service-icon">
+          <i class="fas fa-solar-panel"></i>
+        </div>
+        <h3>Solar Panel Installation</h3>
+        <p>Efficient solar systems for homes and businesses with expert installation and maintenance.</p>
+        <a href="services.html#solar" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <i class="fas fa-water"></i>
+        </div>
+        <h3>Borehole Drilling</h3>
+        <p>Clean and sustainable water solutions with professional drilling and pump installation.</p>
+        <a href="services.html#borehole" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <i class="fas fa-tint"></i>
+        </div>
+        <h3>Jojo Tank Solutions</h3>
+        <p>High-quality water storage tanks with complete installation and maintenance services.</p>
+        <a href="services.html#jojo" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <i class="fas fa-wrench"></i>
+        </div>
+        <h3>Maintenance & Repairs</h3>
+        <p>Comprehensive maintenance plans to keep your systems running efficiently.</p>
+        <a href="services.html#maintenance" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
+    <div class="section-header">
+      <h2 class="section-title">Our Recent Projects</h2>
+      <p class="section-subtitle">See our work in action across Zimbabwe</p>
+    </div>
+    <div class="gallery">
+      <div class="project-card">
+        <img src="images/WhatsApp Image 2025-06-18 at 17.18.51_9efe5003.jpg" alt="Solar installation project in Victoria Falls" />
+        <div class="project-overlay">
+          <h3>Victoria Falls Solar Project</h3>
+          <p>10kW commercial installation</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/WhatsApp Image 2025-06-18 at 17.18.57_21cc9732.jpg" alt="Borehole drilling project in Harare" />
+        <div class="project-overlay">
+          <h3>Harare Borehole Project</h3>
+          <p>Deep water drilling</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/WhatsApp Image 2025-06-18 at 17.19.00_6b25f90e.jpg" alt="Jojo tank installation in Bulawayo" />
+        <div class="project-overlay">
+          <h3>Bulawayo Water Storage</h3>
+          <p>5000L Jojo tank system</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/WhatsApp Image 2025-06-18 at 17.19.03_b079469c.jpg" alt="Residential solar project" />
+        <div class="project-overlay">
+          <h3>Residential Solar System</h3>
+          <p>5kW home installation</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <a href="projects.html" class="btn btn-primary">View All Projects</a>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials">
+    <div class="section-header">
+      <h2 class="section-title">What Our Clients Say</h2>
+      <p class="section-subtitle">Trusted by homeowners and businesses across Zimbabwe</p>
+    </div>
+    <div class="testimonials-container">
+      <div class="testimonial-box">
+        <div class="testimonial-content">
+          <i class="fas fa-quote-left"></i>
+          <p>Greengrip Energy installed our solar system and we've had zero power issues since. Professional from start to finish.</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="images/testimonial1.jpg" alt="Tendai M." />
+          <div>
+            <h4>Tendai M.</h4>
+            <p>Harare Homeowner</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <div class="testimonial-content">
+          <i class="fas fa-quote-left"></i>
+          <p>The borehole they drilled for our farm has transformed our operations. Reliable water all year round.</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="images/testimonial2.jpg" alt="Sarah K." />
+          <div>
+            <h4>Sarah K.</h4>
+            <p>Commercial Farmer</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <div class="testimonial-content">
+          <i class="fas fa-quote-left"></i>
+          <p>Excellent service and follow-up. Our Jojo tank system was installed perfectly and works flawlessly.</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="images/testimonial3.jpg" alt="James T." />
+          <div>
+            <h4>James T.</h4>
+            <p>School Administrator</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta">
+    <div class="cta-overlay"></div>
+    <div class="cta-content">
+      <h2>Ready to Start Your Project?</h2>
+      <p>Get a free consultation and quote for your energy or water solution today.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        <a href="tel:+263784891758" class="btn btn-outline">
+          <i class="fas fa-phone"></i> +263713458695
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <a href="index.html" class="footer-logo">
+          <img src="images/logo.png" alt="Greengrip Energy" />
+        </a>
+        <p>Empowering Zimbabwe with sustainable energy and water solutions since 2010.</p>
+        <div class="footer-social">
+          <a href="https://wa.me/263784891758" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html#solar">Solar Installations</a></li>
+          <li><a href="services.html#borehole">Borehole Drilling</a></li>
+          <li><a href="services.html#jojo">Jojo Tank Setup</a></li>
+          <li><a href="services.html#maintenance">Maintenance</a></li>
+          <li><a href="services.html">All Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> 109 NKULUMANE, SEKUSILE, BULAWAYO</li>
+          <li><i class="fas fa-phone"></i> <a href="tel:+263784891758">+263713458695</a></li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:ngqabuthohadebe@gmail.com">ngqabuthohadebe@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 GREENGRIP ENERGY. All rights reserved.</p>
+      <p>Website developed by <a href="#" target="_blank">Pakama Tech Solutions</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

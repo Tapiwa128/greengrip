@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover Greengrip Energy's comprehensive services including solar installations, borehole drilling, and water storage solutions">
+  <title>Our Services | Greengrip Energy</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo-link">
+        <img src="images/logo.png" class="nav-logo" alt="Greengrip Energy" />
+      </a>
+      <div class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle navigation"><i class="fas fa-bars"></i></div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Services Header -->
+  <header class="hero">
+    <div class="slideshow-container">
+      <div class="slide fade" style="display: block;">
+        <img src="images/pexels-pixabay-371917.jpg" alt="Greengrip Energy Services" />
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1>Comprehensive Energy & Water Solutions</h1>
+          <p>Tailored services for residential, commercial, and agricultural needs</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="section services" id="services">
+    <div class="section-header">
+      <h2 class="section-title">Our <span>Services</span></h2>
+      <p class="section-subtitle">Sustainable solutions for every need</p>
+    </div>
+
+    <!-- Solar Services -->
+    <div class="service-category" id="solar">
+      <div class="service-category-header">
+        <div class="service-category-icon">
+          <i class="fas fa-solar-panel"></i>
+        </div>
+        <h3>Solar Energy Solutions</h3>
+      </div>
+      <div class="services-grid">
+        <div class="service-box">
+          <h4>Residential Solar Systems</h4>
+          <p>Complete home solar solutions from 3kW to 10kW systems with battery backup options for uninterrupted power.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> On-grid and off-grid systems</li>
+            <li><i class="fas fa-check-circle"></i> Hybrid inverter options</li>
+            <li><i class="fas fa-check-circle"></i> Lithium and lead-acid batteries</li>
+          </ul>
+        </div>
+        <div class="service-box">
+          <h4>Commercial Solar Installations</h4>
+          <p>Custom solar solutions for businesses, schools, and institutions from 10kW to 500kW systems.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Energy audits and consulting</li>
+            <li><i class="fas fa-check-circle"></i> Net metering solutions</li>
+            <li><i class="fas fa-check-circle"></i> Industrial-scale installations</li>
+          </ul>
+        </div>
+        <div class="service-box">
+          <h4>Agricultural Solar Solutions</h4>
+          <p>Solar-powered irrigation and farming systems designed for Zimbabwe's agricultural needs.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Solar water pumping systems</li>
+            <li><i class="fas fa-check-circle"></i> Farm electrification</li>
+            <li><i class="fas fa-check-circle"></i> Remote monitoring</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Water Services -->
+    <div class="service-category" id="borehole">
+      <div class="service-category-header">
+        <div class="service-category-icon">
+          <i class="fas fa-water"></i>
+        </div>
+        <h3>Water Solutions</h3>
+      </div>
+      <div class="services-grid">
+        <div class="service-box">
+          <h4>Borehole Drilling</h4>
+          <p>Professional borehole drilling services with depth capabilities up to 150 meters using modern equipment.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Site assessment and surveying</li>
+            <li><i class="fas fa-check-circle"></i> Rotary and percussion drilling</li>
+            <li><i class="fas fa-check-circle"></i> Water quality testing</li>
+          </ul>
+        </div>
+        <div class="service-box">
+          <h4>Water Pump Installation</h4>
+          <p>Complete pump systems including solar, electric, and manual options for various applications.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Submersible pumps</li>
+            <li><i class="fas fa-check-circle"></i> Surface pumps</li>
+            <li><i class="fas fa-check-circle"></i> Solar pump controllers</li>
+          </ul>
+        </div>
+        <div class="service-box">
+          <h4>Jojo Tank Systems</h4>
+          <p>High-quality water storage solutions from 1,000L to 10,000L with professional installation.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> UV-protected tanks</li>
+            <li><i class="fas fa-check-circle"></i> Stand and base construction</li>
+            <li><i class="fas fa-check-circle"></i> Complete plumbing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Maintenance Services -->
+    <div class="service-category" id="maintenance">
+      <div class="service-category-header">
+        <div class="service-category-icon">
+          <i class="fas fa-tools"></i>
+        </div>
+        <h3>Maintenance Services</h3>
+      </div>
+      <div class="services-grid">
+        <div class="service-box">
+          <h4>System Maintenance Plans</h4>
+          <p>Regular maintenance packages to keep your solar and water systems running at peak efficiency.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Quarterly inspections</li>
+            <li><i class="fas fa-check-circle"></i> Performance monitoring</li>
+            <li><i class="fas fa-check-circle"></i> Preventive maintenance</li>
+          </ul>
+        </div>
+        <div class="service-box">
+          <h4>Emergency Repairs</h4>
+          <p>24/7 emergency repair services for solar and water systems with rapid response times.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Pump repairs</li>
+            <li><i class="fas fa-check-circle"></i> Solar system troubleshooting</li>
+            <li><i class="fas fa-check-circle"></i> Tank leak repairs</li>
+          </ul>
+        </div>
+        <div class="service-box">
+          <h4>System Upgrades</h4>
+          <p>Upgrade existing systems with the latest technology for improved performance and efficiency.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Battery upgrades</li>
+            <li><i class="fas fa-check-circle"></i> Panel additions</li>
+            <li><i class="fas fa-check-circle"></i> Smart monitoring</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Process -->
+  <section class="section process">
+    <div class="section-header">
+      <h2 class="section-title">Our <span>Process</span></h2>
+      <p class="section-subtitle">From consultation to completion</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-number">1</div>
+        <h3>Consultation</h3>
+        <p>We assess your needs through site visits or virtual consultations to understand your requirements.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">2</div>
+        <h3>Custom Solution</h3>
+        <p>Our experts design a tailored solution with detailed specifications and transparent pricing.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">3</div>
+        <h3>Approval</h3>
+        <p>We present our proposal and adjust based on your feedback until you're completely satisfied.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">4</div>
+        <h3>Installation</h3>
+        <p>Our certified technicians implement the solution with minimal disruption and maximum care.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">5</div>
+        <h3>Aftercare</h3>
+        <p>We provide training, documentation, and ongoing support to ensure optimal performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <div class="cta-overlay"></div>
+    <div class="cta-content">
+      <h2>Ready to Get Started?</h2>
+      <p>Contact us today for a free consultation and quote tailored to your specific needs.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+        <a href="tel:+263784891758" class="btn btn-outline">
+          <i class="fas fa-phone"></i> Call Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <a href="index.html" class="footer-logo">
+          <img src="images/logo.png" alt="Greengrip Energy" />
+        </a>
+        <p>Empowering Zimbabwe with sustainable energy and water solutions since 2010.</p>
+        <div class="footer-social">
+          <a href="https://wa.me/263784891758" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html#solar">Solar Installations</a></li>
+          <li><a href="services.html#borehole">Borehole Drilling</a></li>
+          <li><a href="services.html#jojo">Jojo Tank Setup</a></li>
+          <li><a href="services.html#maintenance">Maintenance</a></li>
+          <li><a href="services.html">All Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> 109 NKULUMANE, SEKUSILE, BULAWAYO</li>
+          <li><i class="fas fa-phone"></i> <a href="tel:+263784891758">+263713458695</a></li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:ngqabuthohadebe@gmail.com">ngqabuthohadebe@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 GREENGRIP ENERGY. All rights reserved.</p>
+      <p>Website developed by <a href="#" target="_blank">Pakama Tech Solutions</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

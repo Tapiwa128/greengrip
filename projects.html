@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="View Greengrip Energy's portfolio of completed solar and water projects across Zimbabwe">
+  <title>Our Projects | Greengrip Energy</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo-link">
+        <img src="images/logo.png" class="nav-logo" alt="Greengrip Energy" />
+      </a>
+      <div class="nav-toggle" onclick="toggleMenu()" aria-label="Toggle navigation"><i class="fas fa-bars"></i></div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Projects Header -->
+  <header class="hero">
+    <div class="slideshow-container">
+      <div class="slide fade" style="display: block;">
+        <img src="images/pexels-pixabay-371917.jpg" alt="Greengrip Energy Projects" />
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <h1>Our Portfolio of Success</h1>
+          <p>Transforming lives through sustainable energy and water solutions</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Projects Gallery -->
+  <section class="section projects">
+    <div class="section-header">
+      <h2 class="section-title">Featured <span>Projects</span></h2>
+      <p class="section-subtitle">A showcase of our completed work across Zimbabwe</p>
+    </div>
+
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="solar">Solar</button>
+      <button class="filter-btn" data-filter="borehole">Borehole</button>
+      <button class="filter-btn" data-filter="jojo">Jojo Tanks</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+    </div>
+
+    <div class="gallery">
+      <!-- Solar Projects -->
+      <div class="project-card" data-category="solar commercial">
+        <img src="images/project-solar1.jpg" alt="Victoria Falls Hotel Solar Installation" />
+        <div class="project-overlay">
+          <h3>Victoria Falls Hotel</h3>
+          <p>50kW commercial solar installation</p>
+          <a href="project-details.html" class="btn btn-small">View Details</a>
+        </div>
+      </div>
+      <div class="project-card" data-category="solar">
+        <img src="images/project-solar2.jpg" alt="Harare Residential Solar System" />
+        <div class="project-overlay">
+          <h3>Harare Residence</h3>
+          <p>5kW hybrid solar system</p>
+          <a href="project-details.html" class="btn btn-small">View Details</a>
+        </div>
+      </div>
+
+      <!-- Borehole Projects -->
+      <div class="project-card" data-category="borehole commercial">
+        <img src="images/project-borehole1.jpg" alt="Commercial Farm Borehole Project" />
+        <div class="project-overlay">
+          <h3>Mashonaland Farm</h3>
+          <p>120m deep borehole with solar pump</p>
+          <a href="project-details.html" class="btn btn-small">View Details</a>
+        </div>
+      </div>
+      <div class="project-card" data-category="borehole">
+        <img src="images/project-borehole2.jpg" alt="Community Borehole Project" />
+        <div class="project-overlay">
+          <h3>Rural Community Project</h3>
+          <p>Community water access solution</p>
+          <a href="project-details.html" class="btn btn-small">View Details</a>
+        </div>
+      </div>
+
+      <!-- Jojo Tank Projects -->
+      <div class="project-card" data-category="jojo commercial">
+        <img src="images/project-jojo1.jpg" alt="School Water Storage Solution" />
+        <div class="project-overlay">
+          <h3>Bulawayo School</h3>
+          <p>10,000L tank system with plumbing</p>
+          <a href="project-details.html" class="btn btn-small">View Details</a>
+        </div>
+      </div>
+      <div class="project-card" data-category="jojo">
+        <img src="images/project-jojo2.jpg" alt="Residential Water Storage" />
+        <div class="project-overlay">
+          <h3>Gweru Residence</h3>
+          <p>5,000L tank with pump system</p>
+          <a href="project-details.html" class="btn btn-small">View Details</a>
+        </div>
+      </div>
+
+      <!-- Mixed Projects -->
+      <div class="project-card" data-category="solar borehole commercial">
+        <img src="images/project-mixed1.jpg" alt="Lodge Solar and Water System" />
+        <div class="project-overlay">
+          <h3>Hwange Safari Lodge</h3>
+          <p>Complete solar and water solution</p>
+          <a href="project-details.html" class="btn btn-small">View Details</a>
+        </div>
+      </div>
+      <div class="project-card" data-category="solar jojo">
+        <img src="images/project-mixed2.jpg" alt="Farm Solar and Water Storage" />
+        <div class="project-overlay">
+          <h3>Matabeleland Farm</h3>
+          <p>Solar-powered irrigation system</p>
+          <a href="project-details.html" class="btn btn-small">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-testimonials">
+      <div class="section-header">
+
+  
+       
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <a href="index.html" class="footer-logo">
+          <img src="images/logo.png" alt="Greengrip Energy" />
+        </a>
+        <p>Empowering Zimbabwe with sustainable energy and water solutions since 2010.</p>
+        <div class="footer-social">
+          <a href="https://wa.me/263784891758" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html#solar">Solar Installations</a></li>
+          <li><a href="services.html#borehole">Borehole Drilling</a></li>
+          <li><a href="services.html#jojo">Jojo Tank Setup</a></li>
+          <li><a href="services.html#maintenance">Maintenance</a></li>
+          <li><a href="services.html">All Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> 109 NKULUMANE, SEKUSILE, BULAWAYO</li>
+          <li><i class="fas fa-phone"></i> <a href="tel:+263784891758">+263713458695</a></li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:ngqabuthohadebe@gmail.com">ngqabuthohadebe@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 GREENGRIP ENERGY. All rights reserved.</p>
+      <p>Website developed by <a href="#" target="_blank">Pakama Tech Solutions</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
