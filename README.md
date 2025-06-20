@@ -2,7 +2,7 @@
   <h1>🌿 GreenGrip Energy - Sustainable Solutions Website</h1>
   <p>A modern, responsive website template for renewable energy and water solutions businesses</p>
   
-  <img src="https://example.com/path-to-your-preview-image.jpg" alt="GreenGrip Energy Preview" width="800">
+
   
   <div>
     <a href="#features">Features</a> •
@@ -107,7 +107,7 @@ greengrip-energy/
 
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/your-username/greengrip-energy.git</code></pre>
+    <pre><code>git clone https://github.com/Tapiwa128/greengrip</code></pre>
   </li>
   <li>Open the project folder:
     <pre><code>cd greengrip-energy</code></pre>
